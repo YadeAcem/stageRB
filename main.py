@@ -7,6 +7,7 @@ def find_klinker(aantal,klinker):
             aantal += 1
     print("in uw zin zitten", aantal,"klinkers")
 
+
 if __name__ == '__main__':
     klinker_lijst=["a","e","i","o","u"]
     aantal_klink = 0
