@@ -1,15 +1,14 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+def find_klinker(aantal,klinker):
+    vraag = input("type uw zin AUB:")
+    print(vraag)
+    for i in range(len(vraag)):
+        if vraag[i] in klinker:
+            aantal += 1
+    print("in uw zin zitten", aantal,"klinkers")
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('Yade')
+    klinker_lijst=["a","e","i","o","u"]
+    aantal_klink = 0
+    find_klinker(aantal_klink,klinker_lijst)
 
